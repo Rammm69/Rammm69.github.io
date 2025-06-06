@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFEST 7.0 | Make Wave For Change</title>
+    <link rel="icon" type="image/x-icon" href="image/Logo fifest 7.0.png">
+    
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- header -->
+
+    <header class="header">
+        <a href="#">
+            <img src="image/2.png" alt="" class="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about-us">ABOUT US</a>
+            <a href="#competition">COMPETITION</a> 
+            <a href="#merchandise">MERCHANDISE</a>
+            <a href="#sponsorship">SPONSORSHIP</a>
+            <a href="#contact-us">CONTACT US</a>
+        </nav>
+        
+        <div class="toggle_menu"><i class='bx bx-menu' id="menu-icon"></i></div>
+
+        <div class="dropdown_menu">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about-us">ABOUT US</a>
+            <a href="#competition">COMPETITION</a> 
+            <a href="#merchandise">MERCHANDISE</a>
+            <a href="#sponsorship">SPONSORSHIP</a>
+            <a href="#contact-us">CONTACT US</a>
+        </div>
+    </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_menu')
+        const toggleBtnIcon = document.querySelector('.toggle_menu i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function() {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'bx bx-x'
+            : 'bx bx-menu'
+        }
+    </script>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <div>
+        <img src="image/bg 1.png" alt="" class="background">
+        </div>
+    </section>
+
+    <!-- about us -->
+    <section class="about-us" id="about-us">
+        <div>
+        <img src="image/bg 2.png" alt="" class="background2">
+            
+            <div class="img-aboutus">
+                <img src="image/D2F3C040-51D7-44BD-94A2-FB4657C492CE.JPG" alt="" class="img-aboutus">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- competition -->
+    <section id="competition">
+        <img src="image/bg 3.png" alt="" class="background3">
+
+        <div class="perlombaan">
+            <a href="lomba.html"><img src="btn perlombaan/1.png" alt="" class="btn-perlombaan"></a>
+            <a href="#competition"><img img src="btn perlombaan/2.png" alt="" class="btn-perlombaan"></img>
+            <a href="#competition"><img src="btn perlombaan/3.png" alt="" class="btn-perlombaan"></a>
+            <a href="https://drive.google.com/file/d/1xuYWI7mXxV0voW6NhZqNx1UvFxz0ueQj/view?usp=sharing" target="_blank"><img src="btn perlombaan/4.png" alt="" class="btn-perlombaan"></a>
+            <a href="#competition"><img src="btn perlombaan/5.png" alt="" class="btn-perlombaan"></a>
+            <a href="#competition"><img src="btn perlombaan/6.png" alt="" class="btn-perlombaan"></a>
+        </div>
+    </section>
+
+    <section class="competition" id="lomba">
+        <img src="image/bg 4.png" alt="" class="background4">
+
+        <a href="lomba.html" class="foto-foto-lomba">
+            <img src="foto lomba/1.png" alt="" class="foto-lomba">
+            <img src="foto lomba/2.png" alt="" class="foto-lomba">
+        </a>
+
+    </section>
+
+    <!-- merchandise -->
+    <section class="merchandise" id="merchandise">
+        
+        <img src="image/bg 5.png" alt="" class="background5">
+
+        <div class="foto-foto-merch">
+            <img src="foto merch/1.png" alt="" class="foto-merch">
+            <img src="foto merch/2.png" alt="" class="foto-merch">
+            <img src="foto merch/3.png" alt="" class="foto-merch">
+            <img src="foto merch/4.png" alt="" class="foto-merch">
+            <img src="foto merch/5.png" alt="" class="foto-merch">
+            <img src="foto merch/6.png" alt="" class="foto-merch">
+            <img src="foto merch/7.png" alt="" class="foto-merch">
+            <img src="foto merch/8.png" alt="" class="foto-merch">
+            <img src="foto merch/9.png" alt="" class="foto-merch">
+            <img src="foto merch/10.png" alt="" class="foto-merch">
+            <img src="foto merch/11.png" alt="" class="foto-merch">
+            <img src="foto merch/12.png" alt="" class="foto-merch">
+        </div>
+        
+        <a href="https://wa.me/628977427274" target="_blank">
+            <img src="image/btn order.png" alt="" class="btn3">
+        </a>
+    
+    </section>
+
+    <!-- about maskot -->
+    <section class="about-maskot">
+        <img src="image/bg 6.png" alt="" class="background6">
+
+        <img src="image/maskot.png" alt="" class="maskot">
+
+    </section>
+
+    <!-- twibon -->
+    <section class="twibon">
+        <img src="image/bg 7.png" alt="" class="background7">
+
+        <a href="https://twb.nz/fithrahinsanifestival70" target="_blank">
+            <img src="image/btn make.png" alt="" class="btn4">
+        </a>
+
+    </section>
+
+    <!-- location -->
+    <section class="location">
+        <img src="image/bg 8.png" alt="" class="background8">
+        <div class="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.2961409919144!2d107.56822567499803!3d-7.091630392911476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68ecaa5348fd01%3A0x913204313c18e820!2svilla%20Pesantren%20Fitrah%20Insani%20Fi%20Tahfidz!5e0!3m2!1sen!2sid!4v1727246320281!5m2!1sen!2sid" class="map"></iframe>
+        </div>
+    </section>
+
+    <!-- sponsor -->
+    <section class="sponsor" id="sponsorship">
+        <img src="image/bg 9.png" alt="" class="background9">
+
+        <div class="our-sponsor">
+            <img src="sponsor/1.png" alt="" class="our-1sponsors">
+            <img src="sponsor/2.png" alt="" class="our-2sponsors">
+            <img src="sponsor/3.png" alt="" class="our-3sponsors">
+        </div>
+
+        <div class="our-support">
+            <img src="sponsor/s4.png" alt="" class="our-supports">
+            <img src="sponsor/s5.jpg" alt="" class="our-supports">
+        </div>
+
+        <a href="https://docs.google.com/forms/d/13IG6xxl2g5IEZJjHIKAEQrxPQFUtrpX6N4m8qFhFm7s/edit?usp=forms_home&ths=true&pli=1" target="_blank"><img src="image/btn contact 1.png" alt="" class="btn5"></a>
+
+    </section>
+    
+    <!-- Contact -->
+    <section class="contact" id="contact-us">
+        <img src="image/bg 10.png" alt="" class="background10">
+
+        <div class="contact-uss" >
+            <a href="https://mail.google.com/mail/u/0/#search/officialfifest%40gmail.com?compose=new" target="_blank">
+                <img src="image/btn email.png" alt="" class="contacts">
+            </a>
+            <a href="https://wa.me/628977427274" target="_blank">
+                <img src="image/btn tlp.png" alt="" class="contacts">
+            </a>
+        </div>
+
+        <div class="follow-us">
+            <a href="https://www.instagram.com/fi.festival?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <img src="sosmed/sosmed 1.png" alt="" class="sosmed">
+            </a>
+            <a href="https://www.youtube.com/@pesantrenfi" target="_blank">
+                <img src="sosmed/sosmed 2.png" alt="" class="sosmed">
+            </a>
+            <a href="https://www.tiktok.com/@officialfifest?is_from_webapp=1&sender_device=pc" target="_blank">
+                <img src="sosmed/sosmed 3.png" alt="" class="sosmed">
+            </a>
+        </div>
+        
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by FIFEST 7.0 | All Right Reserved.</p>
+            <p>Develop by <a href="https://github.com/Rammm69" class="text-white" target="_blank">Daivandra Ramasatya Purwanata</a></p>
+            
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- script js -->
+    <script src="script.js"></script>
+
+</body>
+</html>
